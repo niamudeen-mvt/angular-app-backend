@@ -4,6 +4,9 @@ var path = require('path');
 const Sequelize = require('sequelize')
 var basename = path.basename(__filename);
 
+
+const db = {};
+
 const sequelize = new Sequelize(
   dbConfig.DB,
   dbConfig.USER,
@@ -18,7 +21,6 @@ const sequelize = new Sequelize(
 
 
 
-const db = {};
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
