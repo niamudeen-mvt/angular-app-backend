@@ -2,7 +2,7 @@ module.exports = {
   DB:'testing_mysql',
   USER:'root',
   PASSWORD:'root',
-  HOST:'54.191.253.12',
+  HOST:'44.226.122.3',
   dialect:'mysql',
   pool: {
     max: 5,

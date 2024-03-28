@@ -18,7 +18,6 @@ app.get('/test',(req,res)=>{
   res.send('server is working fine')
 })
 
-
 const PORT = 8080;
 app.listen(PORT, () => {
 console.log (`Server is running on port ${PORT}`);
