@@ -14,6 +14,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use('/api/v1/',router)
 
+app.get('/test',(req,res)=>{
+  res.send('server is working fine')
+})
+
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
