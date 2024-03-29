@@ -8,9 +8,9 @@ var basename = path.basename(__filename);
 const db = {};
 
 const sequelize = new Sequelize(
-  dbConfig.DB,
-  dbConfig.USER,
-  dbConfig.PASSWORD,
+  dbConfig.database,
+  dbConfig.user,
+  dbConfig.password,
   {
     host: dbConfig.HOST,
     maxConcurrentQueries: 100,

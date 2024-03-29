@@ -14,7 +14,7 @@ module.exports = ( sequelize, DataTypes) => {
     parent_id:DataTypes.INTEGER,
     tag_id:DataTypes.INTEGER,
     type:DataTypes.STRING,
-    createdAt:DataTypes.DATE,
+    createdAt:DataTypes.DATE
   },{
     tableName: 'USER_COMMENTS',
     timestamps: false
